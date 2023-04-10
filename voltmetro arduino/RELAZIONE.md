@@ -62,8 +62,18 @@ Vin = (Vout * R1+R2)/R2
 
 Prove:
 Misura:
+
 ![](misura_voltmetro.jpg)
 
-Video misura:
-https://user-images.githubusercontent.com/119898897/231008000-f5f9298c-ed6f-4f7f-adf9-789bc1ed39a1.mp4
+Video misura
+
+https://user-images.githubusercontent.com/119898897/231008564-d2ad9391-9fc6-4a6e-afdc-db659c5395df.mp4
+
+Interno:
+
+![interno_voltmetro](https://user-images.githubusercontent.com/119898897/231008624-b78b0e51-e1d9-40d2-858a-aa2b03b2c111.jpg)
+
+Foto finale:
+
+![voltmetro](https://user-images.githubusercontent.com/119898897/231008666-f683f6e6-10fc-4c8c-bfda-7669e18ce6d8.jpg)
 
