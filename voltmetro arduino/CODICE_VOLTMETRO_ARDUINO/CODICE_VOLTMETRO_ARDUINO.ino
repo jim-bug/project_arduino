@@ -22,10 +22,10 @@ void setup(){
 void loop(){
   lcd.setCursor(0, 1);
   digitalWrite(PIN_Y, HIGH);
-	analog_value = analogRead(A4);
+	analog_value = analogRead(A0);
 	float vout = ((analog_value*VOLT_ARD)/1023.0) *	inverse;
   lcd.print("VOLT: ");
-	lcd.print(vout);
+	Serial.println(vout);
   lcd.print("V");
   if (vout >= 28){
     digitalWrite(PIN_X, HIGH);
