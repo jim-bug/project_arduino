@@ -5,7 +5,13 @@
 #define R2 2000.0
 #define PIN_Y 6
 #define PIN_X 7
-LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
+#define RS 12
+#define E 11
+#define D4 5
+#define D5 4
+#define D6 3
+#define D7 2
+LiquidCrystal lcd(RS, E, D4, D5, D6, D7);
 const float inverse = (R1+R2)/R2;
 float analog_value;
 
@@ -15,7 +21,7 @@ void setup(){
   Serial.begin(9600);
   lcd.begin(16, 2);
   lcd.print("BY JIM-BUG");
-  delay(300);
+  delay(780);
   lcd.clear();
   lcd.print("VOLTMETRO");
 }
