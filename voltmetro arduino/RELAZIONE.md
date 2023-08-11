@@ -58,13 +58,22 @@ Vout = R2 * Vin/R1+R2
 Vout * R1 + R2 = R2 * Vin
 Vin = (Vout * R1+R2)/R2
 ```
-Risolti tutti i problemi del voltmetro andiamo a vedere come funziona il circuito.
-
-**FUNZIONAMENTO**
-
-Il circuito prevede che all'accensione si accenda un led verde, che indichi il funzionamento, inoltre prevede anche un led rosso che si accende solo quando si superano
-i 28V il led lampeggia fin quando i volt misurati non si decrementano, a seguire il led c'è un piezo che suona, un modo alternativo per avvertire che si sono superati i 28V.
 
 
+Prove:
+Misura:
 
-Simula il circuito: https://www.tinkercad.com/things/9jgrRdC0x55-voltmetro/editel?sharecode=Ty7aTZ89Pjb9bz6HpP_UDfQniXqgRtf22ZEnP6Yt838
+![](misura_voltmetro.jpg)
+
+Video misura
+
+https://user-images.githubusercontent.com/119898897/231008564-d2ad9391-9fc6-4a6e-afdc-db659c5395df.mp4
+
+Interno:
+
+![interno_voltmetro](https://user-images.githubusercontent.com/119898897/231008624-b78b0e51-e1d9-40d2-858a-aa2b03b2c111.jpg)
+
+Foto finale:
+
+![voltmetro](https://user-images.githubusercontent.com/119898897/231008666-f683f6e6-10fc-4c8c-bfda-7669e18ce6d8.jpg)
+
