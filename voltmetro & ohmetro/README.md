@@ -86,6 +86,13 @@ Per l'ohmetro il circuito cambia, perchè dovremmo usare un partitore resistivo 
 
 Quindi prima di mettere mano sul circuito, facciamo due calcoli:
 ```
-R1 = 
-
+VR2 = R2 *I
+VR2 = R2 * Vin/R1+R2
+VR2/Vin/R1+R2 = R2
+(VR2 * (R1+R2))/Vin = R2
+(VR2 * (R1+R2)) = (R2 * Vin)
+(R1+R2) = (R2 * Vin)/VR2
+R1 = ((R2 * Vin)/VR2)- R2
 ```
+Adesso che sappiamo il calcolo che dobbiamo fare mostriamo graficamente la nostra situazione:
+
