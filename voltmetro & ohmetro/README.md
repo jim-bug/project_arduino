@@ -4,7 +4,7 @@ Salve a tutti, oggi relazionerò un dispositivo in grado di misurare la differen
 
 ### Componenti necessari:
 1. Arduino UNO R4 MINIMA
-2. 3 Resistori di resistenza:
+2. 6 Resistori di resistenza:
    1. 3 x 10Kohm
    2. 1Kohm
    3. 2Kohm
