@@ -16,7 +16,7 @@
 #define LEN 4
 #define START_PIN 12
 #define END_PIN 9
-SoftwareSerial btserial(2, 3);  // rx tx pin
+SoftwareSerial btserial(0, 1);  // rx tx pin
 int pinPrese[LEN];
 int statusPrese[LEN];  // logica inversa, 0=true 1=false
 
