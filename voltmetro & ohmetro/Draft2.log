@@ -1,0 +1,21 @@
+Circuit: * C:\Users\Ignazio\Desktop\coding\project_arduino\voltmetro & ohmetro\Draft2.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Thu Dec 14 06:26:49 2023
+Total elapsed time: 0.042 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2119
+traniter = 2100
+tranpoints = 1051
+accept = 1049
+rejected = 2
+matrix size = 11
+fillins = 2
+solver = Normal
+Matrix Compiler1: 570 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler2: off  [0.1]/0.1/0.1
+
